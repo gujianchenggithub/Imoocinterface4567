@@ -4,7 +4,7 @@ class TestMethod(unittest.TestCase):
     def test_01(self):
         url='http://httpbin.org/post'
         data={
-            'user':'51zxw',
+            'user':'5123zxw',
             'passwd':'8888'
         }
         method='POST'
@@ -22,3 +22,5 @@ class TestMethod(unittest.TestCase):
         run.send_post(url=url,data=data)
 if __name__ == '__main__':
     unittest.main()
+
+# wertwertwert
